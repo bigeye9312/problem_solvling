@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string>
 
-#define MAX_N 101
+#define MAX_N 102
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     while (true)
     {
         int ret = scanf("%[^\n]", input_str);
-        printf("%d\n", ret);
+        scanf("%*c");
         if (ret == -1)
         {
             break;
