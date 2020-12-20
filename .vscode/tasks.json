@@ -9,7 +9,9 @@
                 "/Zi",
                 "/EHsc",
                 "/Fe:",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                // "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                // "${file}"
+                "C:\\Users\\young\\Work\\github\\problem_solving\\temp\\${fileBasenameNoExtension}.exe",
                 "${file}"
             ],
             "problemMatcher": [

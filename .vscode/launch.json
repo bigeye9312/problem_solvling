@@ -5,20 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) 시작",
+            "name": "cpp",
             "type": "cppdbg",
             "request": "launch",
-            "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.exe)",
+            "program": "C:\\Users\\young\\Work\\github\\problem_solving\\temp\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "/path/to/gdb",
+            // "miDebuggerPath": "",
             "setupCommands": [
                 {
-                    "description": "gdb에 자동 서식 지정 사용",
+                    "description": "gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
