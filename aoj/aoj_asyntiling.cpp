@@ -3,7 +3,6 @@
 #include <vector>
 
 #define DIVIDER (1000000007)
-#define TEST_VAR (0)
 
 int find_num_tiling(int remained, std::vector<int> &cache)
 {
